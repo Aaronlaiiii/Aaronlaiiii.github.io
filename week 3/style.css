@@ -11,6 +11,7 @@ h1 {
 p,
 h3 {
   color: red;
+  text-align: left;
 }
 .myclass {
   color: blueviolet;
@@ -22,15 +23,17 @@ h3 {
 
 p {
   color: magenta;
-  /text-align: center;
+  text-align: left;
   border: 1px solid black;
   padding: 30px;
+  background-color: LightCyan;
   /*width: 200px;*/
 }
 article {
   text-align: center;
   border: 1px dashed lime;
   padding: 10px;
+  background-color: LightSalmon;
 }
 h1 {
   font-size: 2rem;
@@ -39,10 +42,6 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
-}
-
-h3 {
-  text-align: left;
 }
