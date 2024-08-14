@@ -1,22 +1,108 @@
 body {
   padding: 40px;
+  background-color: lightsteelblue;
+}
+.my-class1 {
+  border: 5px solid black;
+  width: 200px;
+  height: 85px;
+  padding: 30px;
+  background-color: gray;
+  margin-bottom: 50px;
+  font-size: large;
 }
 .one-Q1 {
-  border: 5px solid bisque;
+  border: 2px solid black;
   height: 200px;
-  background-color: darkkhaki;
+  padding: 30px;
+  background-color: lightgrey;
+  background-position: center;
   line-height: 1.2;
   margin-bottom: 50px;
 }
 .two-Q2 {
-  border: 5px solid darkslategray;
+  border: 2px solid black;
   height: 200px;
-  background-color: coral;
+  padding: 30px;
+  background-color: lightslategray;
+  margin-bottom: 50px;
+}
+.Three-Q3 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}
+.Four-Q4 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightslategray;
+  margin-bottom: 50px;
+}
+.Five-Q5 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
 }
 .six-Q6 {
-  border: 5px solid bisque;
+  border: 2px solid black;
   height: 200px;
-  background-color: aqua;
+  padding: 30px;
+  background-color: lightslategray;
+  margin-bottom: 50px;
+}
+.seven-Q7 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}
+.eight-Q8 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightslategray;
+  margin-bottom: 50px;
+}
+.nine-Q9 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+}
+.ten-Q10 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightslategray;
+  margin-bottom: 50px;
+}
+.eleven-Q11 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
+}
+.twelve-Q12 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightslategray;
+  margin-bottom: 50px;
+}
+.thirteen-Q13 {
+  border: 2px solid black;
+  height: 200px;
+  padding: 30px;
+  background-color: lightgrey;
+  margin-bottom: 50px;
 }
 .Interactive-media-assignment1 {
   border: 4px solid red;
@@ -33,11 +119,18 @@ body {
   color: crimson;
   font-size: 25px;
 }
-.h1 {
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 .outer {
-  border: 2px solid white;
+  border: 2px solid lightsteelblue;
   width: 700px;
   height: 50px;
   color: black;
