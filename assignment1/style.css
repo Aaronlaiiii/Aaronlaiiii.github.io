@@ -13,7 +13,11 @@ body {
 }
 .one-Q1 {
   border: 2px solid black;
-  height: 200px;
+  width: 600px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 75px;
   padding: 30px;
   background-color: lightgrey;
   background-position: center;
