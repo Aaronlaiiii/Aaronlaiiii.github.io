@@ -4,12 +4,15 @@ body {
 }
 .my-class1 {
   border: 5px solid black;
-  width: 200px;
-  height: 85px;
+  width: 250px;
+  height: 90px;
   padding: 30px;
   background-color: gray;
   margin-bottom: 50px;
   font-size: large;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .one-Q1 {
   border: 2px solid black;
@@ -38,88 +41,253 @@ body {
 .two-Q2 {
   border: 2px solid black;
   width: 400px;
-  height: 120px;
+  height: 150px;
   padding: 30px;
   background-color: lightslategray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer2 {
+  border: 2px solid black;
+  width: 700px;
+  height: 170px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .Three-Q3 {
   border: 2px solid black;
   width: 400px;
-  height: 120px;
+  height: 150px;
   padding: 30px;
   background-color: lightgrey;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer3 {
+  border: 2px solid black;
+  width: 700px;
+  height: 250px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .Four-Q4 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   padding: 30px;
   background-color: lightslategray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer4 {
+  border: 2px solid black;
+  width: 800px;
+  height: 200px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .Five-Q5 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   padding: 30px;
   background-color: lightgrey;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer5 {
+  border: 2px solid black;
+  width: 700px;
+  height: 180px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .six-Q6 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   padding: 30px;
   background-color: lightslategray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer6 {
+  border: 2px solid black;
+  width: 800px;
+  min-height: 170px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .seven-Q7 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 220px;
   padding: 30px;
   background-color: lightgrey;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer7 {
+  border: 2px solid black;
+  width: 700px;
+  height: 200px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .eight-Q8 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 180px;
   padding: 30px;
   background-color: lightslategray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer8 {
+  border: 2px solid black;
+  width: 700px;
+  height: 240px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .nine-Q9 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   padding: 30px;
   background-color: lightgray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer9 {
+  border: 2px solid black;
+  width: 700px;
+  height: 240px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .ten-Q10 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 170px;
   padding: 30px;
   background-color: lightslategray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer10 {
+  border: 2px solid black;
+  width: 700px;
+  height: 320px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .eleven-Q11 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 170px;
   padding: 30px;
   background-color: lightgrey;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer11 {
+  border: 2px solid black;
+  width: 700px;
+  height: 280px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .twelve-Q12 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   padding: 30px;
   background-color: lightslategray;
+  margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer12 {
+  border: 2px solid black;
+  width: 700px;
+  height: 200px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
 }
 .thirteen-Q13 {
   border: 2px solid black;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   padding: 30px;
   background-color: lightgrey;
   margin-bottom: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.answer13 {
+  border: 2px solid black;
+  width: 700px;
+  height: 180px;
+  padding: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 .Interactive-media-assignment1 {
   border: 4px solid red;
@@ -143,8 +311,12 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
+}
+.myclass {
+  margin-bottom: 50px;
+  color: #ff4500;
 }
 .outer {
   border: 2px solid lightsteelblue;
@@ -164,7 +336,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q3 {
@@ -174,7 +346,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q4 {
@@ -184,7 +356,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q5 {
@@ -194,7 +366,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q6 {
@@ -204,7 +376,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q7 {
@@ -214,7 +386,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q8 {
@@ -224,7 +396,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q9 {
@@ -234,7 +406,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q10 {
@@ -244,7 +416,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q11 {
@@ -254,7 +426,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q12 {
@@ -264,7 +436,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 .Q13 {
@@ -274,7 +446,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Edu AU VIC WA NT Hand", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
 h3 {
