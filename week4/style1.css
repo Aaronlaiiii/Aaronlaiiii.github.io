@@ -19,7 +19,7 @@ body {
 
 .outer {
   border: 2px dashed rebeccapurple;
-  width: 300px;
+  width: 400px;
   height: 200px;
   color: #3c2a21;
   display: flex;

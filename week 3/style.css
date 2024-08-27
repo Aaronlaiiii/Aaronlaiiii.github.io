@@ -1,56 +1,56 @@
 *::before *::after * {
-  color: darkturquoise;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-#myheading {
-  color: blue;
-}
-/* this is a universal selector */
-h1 {
-  color: chartreuse;
-}
-p,
-h3 {
-  color: red;
-  text-align: center;
-  text
-}
-.myclass {
-  color;
-}
-
-/*span {
-    display: block;
-}*/
-
-p {
-  color: magenta;
-  text-align: center;
-  border: 1px solid black;
-  padding: 30px;
-  background-position: center;
-  background-color: LightCyan;
-  background-position: center;
-  /*width: 200px;*/
-}
-article {
-  text-align: center;
-  border: 1px dashed lime;
-  padding: 10px;
-  background-color: LightSalmon;
-}
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Edu AU VIC WA NT Hand", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
+    color: darkturquoise;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #myheading {
+    color: blue;
+  }
+  /* this is a universal selector */
+  h1 {
+    color: chartreuse;
+  }
+  p,
+  h3 {
+    color: red;
+    text-align: center;
+  }
+  .myclass {
+    color: crimson;
+  }
+  
+  /*span {
+      display: block;
+  }*/
+  
+  p {
+    color: magenta;
+    text-align: left;
+    border: 1px solid black;
+    padding: 30px;
+    background-position: center;
+    background-color: LightCyan;
+    background-position: center;
+    /*width: 200px;*/
+  }
+  article {
+    text-align: center;
+    border: 1px dashed lime;
+    padding: 10px;
+    background-color: LightSalmon;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
