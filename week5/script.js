@@ -50,3 +50,35 @@ if (myScore >= 90) {
 } else {
   console.log("you score p");
 }
+
+console.log("Hello Sarah");
+console.log("Hello Peter");
+console.log("Hello Alice");
+console.log("Hello Robert");
+console.log("Hello Jenny");
+
+const name = ["Sarch", "Peter", "Alice", "Robert", "Jenny"];
+
+for (let i = 0; i < name.length; i++) {
+  console.log("hello", name[i]);
+}
+let shoppingCart = [
+  { name: "T-shirt", price: 20 },
+  { name: "Jeans", price: 50 },
+  { name: "Sneakers", price: 80 },
+  { name: "Backpack", price: 30 },
+];
+let total =
+  shoppingCart[0].price +
+  shoppingCart[1].price +
+  shoppingCart[2].price +
+  shoppingCart[3].price;
+
+console.log(total);
+let sum = 0;
+for (let i = 0; i < 4; i++) {
+  sum = sum + shoppingCart[i].price;
+  console.log("intermediate sum", sum);
+}
+
+console.log(sum);
