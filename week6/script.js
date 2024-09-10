@@ -27,17 +27,42 @@ function giveReport(score) {
   }
 }
 
-const para = document.querySelector("p");
-console.log(para);
+const myCat = document.querySelector("#my-cat");
+console.log(myCat);
+myCat.classList.add("round");
 
-const allPara = document.querySelectorAll("p");
-console.log(allPara);
+function toggleMe() {
+  myCat.classList.toggle("round");
+}
 
-const heading = document.querySelector("h1");
-console.log(heading);
+const header = document.querySelector("header");
+console.log(header.innerHTML);
+let personality = "boring";
+let doubt = "doubt";
+header.innerHTML += ` <p class="blue-heading"> is the ${personality}! </p>
+<p class="red-heading"> do you have any ${doubt}? </p>`;
+//const para = document.querySelector("p");
+//console.log(para.textContent);
+//para.textContent = "what is you as1 score?"
+//para.classList.add("red-heading")
 
-const abcd = document.querySelector(".abcd");
-console.log(abcd);
+//const para1 = document.querySelector("#question2");
+//console.log(para1.textContent);
+//para1.textContent = "what is your as2 score?"
 
-const allAbcd = document.querySelectorAll(".abcd");
-console.log(allAbcd);
+//const allPara = document.querySelectorAll("p");
+//console.log(allPara);
+
+// const heading = document.querySelector("h1");
+// console.log(heading.textContent);
+
+// heading.textContent = "new heading";
+// heading.classList.add("red-heading")
+// heading.classList.add("blue-heading")
+// heading.classList.remove("blue-heading")
+
+//const abcd = document.querySelector(".abcd");
+//console.log(abcd);
+
+//const allAbcd = document.querySelectorAll(".abcd");
+//console.log(allAbcd);
