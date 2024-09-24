@@ -70,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
     video.currentTime = 180.4;
   }
 
+  // some change
   //   video in fullscreen mode
   fullscreenButton.addEventListener("click", function () {
     if (video.requestFullscreen) {
