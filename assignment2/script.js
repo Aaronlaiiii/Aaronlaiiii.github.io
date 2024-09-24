@@ -45,6 +45,30 @@ document.addEventListener("DOMContentLoaded", function () {
   increaseVolumeButton.addEventListener("click", function () {
     video.volume += 0.1;
   });
+  //The step one will junp to eightteen second.
+  const step1Btn = document.querySelector("#step-1-btn");
+  console.log(step1Btn);
+
+  step1Btn.addEventListener("click", gotostepImg);
+  function gotostepImg() {
+    video.currentTime = 18.4;
+  }
+  //The step two will jump to two mintues
+  const step2Btn = document.querySelector("#step-2-btn");
+  console.log(step1Btn);
+
+  step2Btn.addEventListener("click", gotostep2Img);
+  function gotostep2Img() {
+    video.currentTime = 120.4;
+  }
+  //The step three will junp to three mintues
+  const step3Btn = document.querySelector("#step-3-btn");
+  console.log(step3Btn);
+
+  step3Btn.addEventListener("click", gotostep3Img);
+  function gotostep3Img() {
+    video.currentTime = 180.4;
+  }
 
   //   video in fullscreen mode
   fullscreenButton.addEventListener("click", function () {
@@ -58,7 +82,18 @@ document.addEventListener("DOMContentLoaded", function () {
       video.msRequestFullscreen();
     }
   });
+  let likeCount = 0;
 
+  const likeButton = document.querySelector("#like-btn");
+  console.log(likeButton);
+  likeButton.addEventListener("click", addLikes);
+  const likes = document.querySelector("#likes");
+  likes.textContent = likeCount;
+
+  function addLikes() {
+    likeCount++;
+    likes.textContent = likeCount;
+  }
   // The replay button resets the video to the beginning, corresponding to the material preparation stage
   replayButton.addEventListener("click", function () {
     video.currentTime = 0;
