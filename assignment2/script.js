@@ -53,6 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
   function gotostepImg() {
     video.currentTime = 18.4;
   }
+  //some change
+  //From steps one to three, it is to give the user to preview the video. The reason I make this three button is that I want to let the user jump to three different times straight away, so they have to press fast forward many times to get to the middle or the end of the video.
   //The step two will jump to two mintues
   const step2Btn = document.querySelector("#step-2-btn");
   console.log(step1Btn);
