@@ -1,4 +1,8 @@
-/* For the choice of webpage colors, I primarily selected colors that is similar to the video purple to make it not too off with the video */
+/* For the choice of webpage colors, I primarily selected colors that are similar to the video purple to make it not too off with the video.
+Also, the button's box color is using the same idea as the webpage color. However, I will not use the same color as the webpage color.
+I chose the two other colors that appear in the music video.  
+For all the buttons image I chose not to put same type of image for all the buttons, because I think it would be a bit boring, so most of the buttons like replay, fullscreen, rewind and volume up and down all have different look than each other.
+ */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -56,7 +60,7 @@ h1 {
   width: 100%;
   height: auto;
 }
-
+/*The progress-bar i also use the same color as the webpage color(purple), but it lighter.I just don't want the color have too big a deviation. 
 /* Progress-bar styling */
 .progress-bar {
   position: relative;
