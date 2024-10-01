@@ -77,10 +77,8 @@ header {
   height: 170px;
   padding: 30px;
   display: block;
-  margin-right: auto;
   margin-left: auto;
   background-color: lightgray;
-  margin-bottom: 50px;
 }
 .two-Q2 {
   border: 2px solid black;
