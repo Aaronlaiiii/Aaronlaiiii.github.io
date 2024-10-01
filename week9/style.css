@@ -1,0 +1,188 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #1a120b;
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #e5e5cb;
+  /* color: #3c2a21; */
+  font-size: 1.1rem;
+  gap: 1.5rem;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb7a;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  opacity: 1;
+  /* background-color: cornsilk; */
+  transition: opacity 0.5s ease, transform 0.5s ease,
+    background-color 0.5s ease scale 0.7s ease;
+}
+
+Button {
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  border-radius: 12px;
+  /* border-width: 0; */
+  /* background-color: cadetblue; */
+  color: rgb(103, 100, 85);
+  background-color: transparent;
+  border-color: coral;
+  cursor: pointer;
+  transition: border-color 0.7s;
+  /* transition: background-color 0.7s ease; */
+}
+
+button:hover {
+  /* background-color: rgb(32, 52, 53); */
+  scale: 0.9;
+  border-color: rgb(192, 131, 109);
+}
+
+.duck-fill {
+  cursor: pointer;
+  transition: fill 0.5s ease-in-out;
+}
+
+.duck-fill:hover {
+  fill: rgb(68, 56, 200);
+}
+
+#box {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: purple;
+  border: 5px dashed white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  animation: my-animation 5s infinite;
+}
+
+@keyframes my-animation {
+  0% {
+    background-color: purple;
+    border-color: white;
+  }
+  20% {
+    background-color: limegreen;
+    border-color: yellow;
+  }
+  40% {
+    background-color: red;
+    border-color: blueviolet;
+  }
+  60% {
+    background-color: aquamarine;
+    border-color: orange;
+  }
+  80% {
+    background-color: blue;
+    border-color: lightcoral;
+  }
+  100% {
+    background-color: aqua;
+    border-color: darkblue;
+  }
+}
+
+@keyframes color-wheel {
+  0% {
+    border-color: white;
+  }
+  20% {
+    border-color: limegreen;
+  }
+  40% {
+    border-color: red;
+  }
+  60% {
+    border-color: aquamarine;
+  }
+  80% {
+    border-color: blue;
+  }
+  100% {
+    border-color: aqua;
+  }
+}
+
+#spinner {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid coral; /* Blue */
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  animation: spinner 1s linear infinite; /* Spin animation */
+}
+
+@keyframes spinner {
+  0% {
+    rotate: 0deg;
+    /* transform: rotate(0deg); */
+  }
+  100% {
+    rotate: 360deg;
+    /* transform: rotate(360deg); */
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    /* transform: translateY(0); */
+    translate: 0 0;
+  }
+  40% {
+    translate: 0 -30px;
+    /* transform: translateY(-30px); */
+  }
+  60% {
+    translate: 0 -15px;
+    /* scale: 1.5; */
+    /* transform: translateY(-15px); */
+  }
+}
+.duck-icon {
+  animation: bounce 2s infinite;
+}
+
+#side-drawer {
+  position: fixed;
+  top: o;
+  left: -200px;
+  width: 200px;
+  min-height: 100vh;
+  /* transition: transform 0.5s ease-in-out; */
+  transition: translate 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  border-right: 2px dashed #e5e5cb7a;
+}
+
+#side-drawer ul > li {
+  padding: 10px;
+}
