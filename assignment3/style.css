@@ -21,12 +21,41 @@ header {
   justify-content: center;
   gap: 9rem;
 }
-
+.game-mode img {
+    padding: 10px;
+}
 .edition {
   display: flex;
   justify-content: center;
   gap: 9rem;
   padding-top: 9rem;
+}
+.game-mode {
+    display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 9rem;
+}
+/*h2 {
+    font-size: 20px;
+    font-weight: 900;
+    padding-right: 100px;
+    margin-top: 70px;
+    color: #000000;
+    
+}*/
+.career-mode h2 {
+    font-size: 40px;
+    color: #000000;
+
+}
+.career-mode p {
+    font-size: 30px;
+    color: aqua;
+}
+.career-mode {
+    padding-right: 60px;
+    padding-top: 50px;
 }
 .my-class2 {
   width: 350px;
