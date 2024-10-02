@@ -58,7 +58,7 @@ header {
   border-radius: 10px;
   border: 0;
 }
-/* some change */
+
 button:hover {
   background-color: rgb(163, 171, 56);
   scale: 1;
