@@ -22,7 +22,7 @@ header {
   gap: 9rem;
 }
 .game-mode img {
-    padding: 10px;
+  padding: 10px;
 }
 .edition {
   display: flex;
@@ -31,10 +31,12 @@ header {
   padding-top: 9rem;
 }
 .game-mode {
-    display: flex;
+  display: flex;
   justify-content: center;
   gap: 3rem;
-  padding-top: 9rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
 }
 /*h2 {
     font-size: 20px;
@@ -44,18 +46,24 @@ header {
     color: #000000;
     
 }*/
-.career-mode h2 {
-    font-size: 40px;
-    color: #000000;
 
+.game-mode img {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  background-color: white;
+}
+.career-mode h2 {
+  font-size: 40px;
+  color: #000000;
 }
 .career-mode p {
-    font-size: 30px;
-    color: aqua;
+  font-size: 30px;
+  color: aqua;
 }
 .career-mode {
-    padding-right: 60px;
-    padding-top: 50px;
+  padding-right: 60px;
+  padding-top: 50px;
 }
 .my-class2 {
   width: 350px;
