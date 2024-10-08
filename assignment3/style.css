@@ -197,7 +197,7 @@ w3-display-container mySlides {
 
 /* Position the "next button" to the right */
 .next {
-  right: 200px;
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -237,8 +237,8 @@ w3-display-container mySlides {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin-left: -100px;
-  margin-right: 100px;
+  /*margin-left: -100px;
+  margin-right: 100px;*/
 }
 
 .active,
