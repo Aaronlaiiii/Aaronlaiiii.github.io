@@ -112,6 +112,72 @@ button:hover {
   color: #ffffff;
   margin-top: 10px;
 }
+
+footer {
+  background-color: #000000;
+  padding: 200px;
+  margin-top: 150px;
+}
+
+main {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2rem;
+  margin: auto;
+  width: 600px;
+  overflow: auto;
+  justify-content: space-between;
+}
+
+.slides {
+  border: 2px dashed #e5e5cb7a;
+  width: 300px;
+  font-size: 4rem;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  scale: 0.8;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.2rem;
+}
+
+.navigation img {
+  width: 70px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .one-Q1 {
   border: 2px solid black;
   width: 400px;
