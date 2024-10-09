@@ -30,6 +30,32 @@ header {
   gap: 9rem;
   padding-top: 9rem;
 }
+
+.past {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding-top: 9rem;
+}
+.past img {
+  padding: 0;
+  width: 400px;
+  height: 450px;
+  margin-left: -250px;
+}
+.past-2 {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding-top: 0;
+}
+.past-2 img {
+  padding: 0;
+  width: 400px;
+  height: 450px;
+  margin-right: -250px;
+}
+
 .game-mode {
   display: flex;
   justify-content: center;
@@ -55,6 +81,64 @@ header {
   margin-top: 30px;
   font-weight: 600;
   margin-left: 500px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.box-1 {
+  background-color: lightgrey;
+  width: 5px;
+  height: 800px;
+  margin-right: 10px;
+}
+.nba24 h2 {
+  font-size: 20px;
+  margin-right: 50px;
+  padding: 0;
+}
+.nba23 h2 {
+  font-size: 20px;
+  margin-right: 50px;
+  padding: 0;
+  margin-top: 800px;
+}
+.nba24 button {
+  color: #e30101;
+  background-color: #000000;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 2px;
+  font-weight: 300;
+  margin-left: 2px;
+  border-radius: 10px;
+  border: 0;
+}
+.box-1 #mode-3 {
+  margin-left: -100px;
+  height: 100px;
+}
+.box-2 {
+  background-color: lightgrey;
+  width: 5px;
+  height: 500px;
+  margin-right: -24px;
+}
+.nba22 h2 {
+  font-size: 20px;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.nba22 button {
+  color: #e30101;
+  background-color: #000000;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 2px;
+  font-weight: 300;
+  margin-left: 2px;
   border-radius: 10px;
   border: 0;
 }
