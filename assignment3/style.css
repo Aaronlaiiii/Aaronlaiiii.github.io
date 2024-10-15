@@ -81,8 +81,10 @@ header {
   margin-top: 30px;
   font-weight: 600;
   margin-left: 500px;
+  margin-right: 50px;
   border-radius: 10px;
   border: 0;
+  font-family: "Righteous", sans-serif;
 }
 
 .box-1 {
@@ -148,6 +150,7 @@ button:hover {
   scale: 1;
   border: 3px solid rgb(0, 0, 0);
 }
+
 .game-mode img {
   padding-top: 0;
   padding-bottom: 0;
@@ -162,9 +165,10 @@ button:hover {
   font-size: 30px;
   margin-top: 30px;
   font-weight: 600;
-  margin-left: 500px;
+  margin-left: 50px;
   border-radius: 10px;
   border: 0;
+  font-family: "Righteous", sans-serif;
 }
 
 .game-mode #mode-2 {
@@ -174,13 +178,25 @@ button:hover {
   background-color: white;
 }
 .career-mode-2 {
-  font-size: 30px;
-  color: aqua;
+  font-size: 20px;
+  color: #000000;
+  font-family: "Archivo Black", sans-serif;
+}
+.career-mode-2 p {
+  font-size: 20px;
+  color: #000000;
+  font-family: "Archivo Black", sans-serif;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .career-mode-2 h2 {
   font-size: 40px;
-  color: #000000;
+  color: #e30101;
+  font-family: "Righteous", sans-serif;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .career-mode-2 {
@@ -190,11 +206,18 @@ button:hover {
 
 .career-mode h2 {
   font-size: 40px;
-  color: #000000;
+  color: #e30101;
+  font-family: "Righteous", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .career-mode p {
-  font-size: 30px;
-  color: aqua;
+  font-size: 20px;
+  font-family: "Archivo Black", sans-serif;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .career-mode {
   padding-right: 60px;
@@ -214,6 +237,7 @@ button:hover {
   font-weight: 700;
   color: #000000;
   margin-top: 10px;
+  font-family: "Righteous", sans-serif;
 }
 .my-class1 {
   width: 350px;
@@ -223,12 +247,13 @@ button:hover {
   margin-bottom: 50px;
   font-size: large;
   display: block;
-  border-radius: 20px;
+  border-radius: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "Righteous", sans-serif;
 }
 
 footer {
@@ -258,9 +283,9 @@ w3-display-container mySlides {
 .mySlides {
   display: none;
 }
-#nba-1 {
+/*#nba-1 {
   height: 500px;
-}
+}*/
 
 /* Next & previous buttons */
 .prev,
