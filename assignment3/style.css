@@ -43,6 +43,26 @@ header {
   padding-top: 3rem;
   font-size: 30px;
 }
+.ball-1 {
+  margin-left: 681px;
+  margin-top: 90px;
+}
+.ball-2 {
+  margin-left: 756px;
+  margin-top: 90px;
+}
+.ball-3 {
+  margin-left: 550px;
+  margin-top: 90px;
+}
+.ball-4 {
+  margin-left: 664px;
+  margin-top: 90px;
+}
+.ball-5 {
+  margin-left: 690px;
+  margin-top: 90px;
+}
 .web button:hover {
   color: #e30101;
 }
@@ -125,16 +145,18 @@ header {
 }
 
 .past-22 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 
 .past-22 img {
@@ -184,17 +206,19 @@ header {
 }
 
 .past-23 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
   margin-left: 400px;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 
 .past-21 {
@@ -229,17 +253,19 @@ header {
 }
 
 .past-21 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
   margin-left: 400px;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 
 .box-21 {
@@ -274,16 +300,18 @@ header {
 }
 
 .past-20 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 
 .past-20 img {
@@ -346,17 +374,19 @@ header {
 }
 
 .past-19 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
   margin-left: 400px;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 .box-19 {
   background-color: lightgrey;
@@ -390,16 +420,18 @@ header {
 }
 
 .past-18 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 
 .past-18 img {
@@ -449,17 +481,19 @@ header {
 }
 
 .past-17 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
   width: 150px;
   height: 50px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
   border-radius: 30px;
   border: 0;
   margin-left: 400px;
+  font-family: "Righteous", sans-serif;
+  padding: 7px;
 }
 .box-17 {
   background-color: lightgrey;
@@ -530,16 +564,18 @@ header {
   margin-top: 800px;
 }
 .nba24 button {
-  color: #e30101;
+  color: #d56c6c;
   background-color: #000000;
-  width: 120px;
+  width: 150px;
   height: 50px;
   font-size: 20px;
   margin-top: 2px;
   font-weight: 300;
   margin-left: 2px;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 0;
+  font-family: "Righteous", sans-serif;
+  padding: 6px;
 }
 .box-1 #mode-3 {
   margin-left: -100px;
