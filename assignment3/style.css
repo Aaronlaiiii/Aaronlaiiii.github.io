@@ -46,6 +46,13 @@ header {
 .web button:hover {
   color: #e30101;
 }
+.nba {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 3rem;
+  font-size: 30px;
+}
 
 .past-1 {
   display: flex;
