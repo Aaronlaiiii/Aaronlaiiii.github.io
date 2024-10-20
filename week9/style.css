@@ -43,14 +43,14 @@ Button {
   /* background-color: cadetblue; */
   color: rgb(103, 100, 85);
   background-color: transparent;
-  border-color: coral;
+  border-color: rgb(245, 0, 0);
   cursor: pointer;
   transition: border-color 0.7s;
   /* transition: background-color 0.7s ease; */
 }
 
 button:hover {
-  /* background-color: rgb(32, 52, 53); */
+  background-color: rgb(0, 242, 255);
   scale: 0.9;
   border-color: rgb(192, 131, 109);
 }
